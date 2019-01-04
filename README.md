@@ -70,14 +70,18 @@ Bake at 350 for 12 minutes [Baking Cookies].
 
 Grocery can detect timers that are written as a number of seconds, minutes, hours. Some examples are:
 
+```
 30 seconds
 15 mins
 2 hours
 1 hour and 30 minutes
+```
 
 Sometimes it's helpful to name a timer. We use the [] characters after a timer to designate its name. Here's an example from above with a name:
 
+```
 15 mins [Baking Cookies]
+```
 
 # Images
 
