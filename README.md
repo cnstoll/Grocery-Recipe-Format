@@ -31,7 +31,7 @@ Starting with a title, let's write a recipe for baking chocolate chip cookies. A
 
 ## Wet Ingredients
 
-- Butter | 2 sticks | 
+- Butter | 2 sticks | Softened
 - Brown Sugar | 1 cup | 
 - Sugar | 1/2 cup white | 
 
@@ -65,6 +65,20 @@ Bake at 350 for 12 minutes [Baking Cookies].
 > Could be up to 15 min, or until lightly brown.
 
 ```
+
+# Items
+
+An item is an ingredient that you're going to use while cooking. It is also something you would potentially shop for in Grocery. Grocery distinguishes the title of an item from notes that describe it. We use the same pattern for ingredients in a recipe for the title of the ingredient, and notes that describe the type or amount of that ingredient.
+
+Items are denoted with the - character. We chose the - because it's the easiest to type list character, and to simplify the number of ways a recipe can be defined.
+
+Items are followed by two | characters. The text after the first is the item note that describes how much of an item or what type. The text after the second is the prep note that describes anything you need to do to prepare the item.
+
+```
+- Butter | 2 sticks | Softened
+```
+
+Butter is the item we're using. We need to use 2 sticks. And when we're preparing to cook we need to let the butter soften.
 
 # Timers
 
