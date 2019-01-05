@@ -97,17 +97,17 @@ Sometimes it's helpful to name a timer. We use the [] characters after a timer t
 15 mins [Baking Cookies]
 ```
 
-# Images
+# Photos
 
-Markdown provides support for images with an easy to write syntax:
+Markdown provides support for photos with an easy to write syntax:
 
 ```
-[Image Caption](/path/to/img.jpg)
+[Photo Caption](photo.jpg)
 ```
 
-Grocery uses this syntax for adding images to a recipe, but it needs a place to put those images. That place is provided by file "packages" that have existed on macOS and iOS since the beginning. You'll be familiar with packages (otherwise known as [NSFileWrapper](https://developer.apple.com/documentation/foundation/nsfilewrapper)'s) from things like the .app files in macOS.
+Grocery uses this syntax for adding photos to a recipe, but it needs a place to keep those image files. That place is provided by file "packages" that have existed on macOS and iOS since the beginning. You'll be familiar with packages (otherwise known as [NSFileWrapper](https://developer.apple.com/documentation/foundation/nsfilewrapper)'s) from things like the .app files in macOS.
 
-A Grocery .recipepackage includes the markdown file alongside a /Photos folder containing the images. The paths for each image in the recipe point to an image in that folder.
+A Grocery .recipepackage includes the markdown file alongside a /Photos folder containing the image files. The path component for each photo in the recipe markdown file is the name of the image in that /Photos folder.
 
 # File Extensions
 
