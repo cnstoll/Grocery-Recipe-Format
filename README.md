@@ -66,6 +66,8 @@ Bake at 350 for 12 minutes [Baking Cookies].
 
 ```
 
+If you want to see how this recipe looks when its Markdown is fully rendered, check it out [here](https://github.com/cnstoll/Grocery-Recipe-Format/blob/master/Examples%20as%20Markdown%20Files/Chocolate%20Chip%20Cookies.md).
+
 # Items
 
 An item is an ingredient that you're going to use while cooking. It is also something you would potentially shop for in Grocery. Grocery distinguishes the title of an item from notes that describe it. We use the same pattern for ingredients in a recipe for the title of the ingredient, and notes that describe the type or amount of that ingredient.
