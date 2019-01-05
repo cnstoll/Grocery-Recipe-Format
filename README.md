@@ -20,7 +20,7 @@ The first line of the recipe should always be the title, denoted with the # char
 
 The rest of the lines can be any type of content that fits the way the author wants to write the recipe.
 
-# Example Recipe
+# Writing a Recipe
 
 Starting with a title, let's write a recipe for baking chocolate chip cookies. A recipe like this one includes lots of ingredients that need to be added and used at different times in a specific stages. Markdown helps us group those ingredients with the steps they're used in, and those collections of ingredients and steps into sections. Notes are pretty handy too; think of those as the handwritten notes in the margins of a cookbook.
 
@@ -114,6 +114,12 @@ A Grocery .recipepackage includes the markdown file alongside a /Photos folder c
 Grocery uses a .recipe file extension to designate a file as a recipe. The reason for that is that all recipes are markdown files but not all markdown files are recipes. Even though Grocery could open any markdown file, they wouldn't all make sense as recipes.
 
 Grocery also uses a .recipepackage file extension to identify a recipe that includes images.
+
+# Examples
+
+We're providing a [list of example .recipe and .recipepackage files](https://github.com/cnstoll/Grocery-Recipe-Format/tree/master/Examples%20as%20Recipes) as they would be created by Grocery. Hopefully that gives you an idea of how the app creates these recipes and how you can write your own.
+
+We're also providing a [list of these recipes as .md files](https://github.com/cnstoll/Grocery-Recipe-Format/tree/master/Examples%20as%20Markdown%20Files) that GitHub will preview with its built in Markdown renderer. This is a great way to see how useful Markdown is for viewing these recipes because of how easy they are to read even outside of the Grocery app.
 
 # Contributors
 
