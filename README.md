@@ -1,4 +1,4 @@
-Grocery uses Markdown to create and store recipes. This is obviously different from several structured Recipe formats that rely on JSON or XML, but it is very close in spirit to the recipes we hope to emulate: hand-written or printed recipes that have been passed down generation to generation.
+[Grocery](https://itunes.apple.com/us/app/grocery-smart-sorting-grocery-list/id1195676848?mt=8) uses [Markdown](https://daringfireball.net/projects/markdown/syntax) to create and store recipes. This is obviously different from several structured Recipe formats that rely on JSON or XML, but it is very close in spirit to the recipes we hope to emulate: hand-written or printed recipes that have been passed down generation to generation.
 
 # Philosophy
 
@@ -70,7 +70,7 @@ Bake at 350 for 12 minutes [Baking Cookies].
 
 An item is an ingredient that you're going to use while cooking. It is also something you would potentially shop for in Grocery. Grocery distinguishes the title of an item from notes that describe it. We use the same pattern for ingredients in a recipe for the title of the ingredient, and notes that describe the type or amount of that ingredient.
 
-Items are denoted with the - character. We chose the - because it's the easiest to type list character, and to simplify the number of ways a recipe can be defined.
+Lines that include items are denoted with the - character. We chose the - because it's the easiest to type list character, and to simplify the number of ways a recipe can be defined.
 
 Items are followed by two | characters. The text after the first is the item note that describes how much of an item or what type. The text after the second is the prep note that describes anything you need to do to prepare the item.
 
@@ -114,3 +114,8 @@ A Grocery .recipepackage includes the markdown file alongside a /Photos folder c
 Grocery uses a .recipe file extension to designate a file as a recipe. The reason for that is that all recipes are markdown files but not all markdown files are recipes. Even though Grocery could open any markdown file, they wouldn't all make sense as recipes.
 
 Grocery also uses a .recipepackage file extension to identify a recipe that includes images.
+
+# Contributors
+
+- Designer: [Ryan Gray](https://twitter.com/ryanjagray)
+- Developer: [Conrad Stoll](https://twitter.com/conradstoll)
