@@ -104,7 +104,7 @@ Sometimes it's helpful to name a timer. We use the [] characters after a timer t
 Markdown provides support for photos with an easy to write syntax:
 
 ```
-[Photo Caption](photo.jpg)
+![Photo Caption](photo.jpg)
 ```
 
 Grocery uses this syntax for adding photos to a recipe, but it needs a place to keep those image files. That place is provided by file "packages" that have existed on macOS and iOS since the beginning. You'll be familiar with packages (otherwise known as [NSFileWrapper](https://developer.apple.com/documentation/foundation/nsfilewrapper)'s) from things like the .app files in macOS.
